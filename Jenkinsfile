@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/musabsyd/Jenkins-Terraform-Project.git'
+                git 'https://github.com/samaksh1982/Jenkins-Terraform-Project.git'
                 echo 'Downloding Code Successful'
             }
         }
